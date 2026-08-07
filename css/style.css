@@ -123,3 +123,77 @@ section {
   left: 1290px;
   z-index: 1000;
 }
+.img-d2 {
+  height: 100%;
+  width: 100%;
+}
+.img-d2 img {
+  height: 90%;
+  width: 100%;
+  position: absolute;
+  left: 500px;
+  bottom: 50px;
+}
+.side-img2 {
+  height: 300px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+  bottom: 120px;
+  left: 80px;
+}
+.side-img2 img {
+  height: 80%;
+  width: 90%;
+}
+.img-d2 .left {
+  position: absolute;
+  left: 500px;
+  top: 200px;
+  z-index: 1000;
+}
+
+.img-d2 .right {
+  position: absolute;
+  top: 200px;
+  left: 1290px;
+  z-index: 1000;
+}
+.img-d3 {
+  height: 100%;
+  width: 100%;
+}
+.img-d3 img {
+  height: 90%;
+  width: 100%;
+  position: absolute;
+  left: 500px;
+  bottom: 50px;
+}
+.side-img3 {
+  height: 300px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+  bottom: 120px;
+  left: 80px;
+}
+.side-img3 img {
+  height: 80%;
+  width: 90%;
+}
+.img-d3 .left {
+  position: absolute;
+  left: 500px;
+  top: 200px;
+  z-index: 1000;
+}
+
+.img-d3 .right {
+  position: absolute;
+  top: 200px;
+  left: 1290px;
+  z-index: 1000;
+}
