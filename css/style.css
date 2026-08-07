@@ -76,9 +76,50 @@ input {
   font-size: 20px;
   text-align: center;
 }
-#icon{
-    color: white;
+#icon {
+  color: white;
 }
-li:hover{
-    opacity: 0.5;
+li:hover {
+  opacity: 0.5;
+}
+section {
+  height: 500px;
+  width: 800px;
+  position: relative;
+}
+.img-d {
+  height: 100%;
+  width: 100%;
+}
+.img-d img {
+  height: 90%;
+  width: 100%;
+  position: absolute;
+  left: 500px;
+  bottom: 50px;
+}
+.side-img {
+  height: 300px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+  bottom: 120px;
+  left: 80px;
+}
+.side-img img {
+  height: 80%;
+  width: 90%;
+}
+.img-d .left {
+   position: absolute;
+   left: 500px;
+   top: 200px;
+   z-index: 1000;
+}
+.img-d .right{
+  position: absolute;
+  top: 200px;
+  left: 1290px;
+  z-index: 1000;
 }
