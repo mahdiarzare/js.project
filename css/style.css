@@ -205,13 +205,14 @@ section {
 .content .ch1 {
   position: absolute;
   right: 30px;
-  top: 80px ;
+  bottom: 510px;
   color: rgb(216, 205, 205);
   font-size: 28px;
+   z-index: 1000;
 }
 .content .ch2 {
   position: absolute;
-  top: 80px;
+  bottom: 500px;
   right: 500px;
   border: 1px solid gray;
   padding: 1%;
@@ -220,10 +221,11 @@ section {
   border-radius: 20px;
   font-size: 28px;
   transition: all 0.3s;
+   z-index: 1000;
 }
 .content .ch3 {
   position: absolute;
-  top: 80px;
+  bottom: 500px;
   right: 750px;
   border: 1px solid gray;
   padding: 1%;
@@ -232,10 +234,11 @@ section {
   border-radius: 20px;
   font-size: 28px;
   transition: all 0.3s;
+   z-index: 1000;
 }
 .content .ch4 {
   position: absolute;
-  top: 80px;
+  bottom: 500px;
   right: 1050px;
   border: 1px solid gray;
   padding: 1%;
@@ -244,6 +247,7 @@ section {
   border-radius: 20px;
   font-size: 28px;
   transition: all 0.3s;
+  z-index: 1000;
 }
 .ch2:hover {
   scale: 1.1;
@@ -253,4 +257,107 @@ section {
 }
 .ch4:hover {
   scale: 1.1;
+}
+.genre{
+  height: 500x;
+  width: 100%;
+  display: flex;
+  margin-top: 250px;
+  white-space: nowrap;
+  gap: 20px;
+  overflow: scroll;
+  scrollbar-width: none;
+  position: relative;
+}
+.genre ::-webkit-scrollbar{
+  display: none;
+}
+
+.genre .gd1 {
+  height: 50%;
+  width: 300px;
+}
+.gd1 img {
+ height: 200px;
+ width:  300px;
+}
+.genre .gd2 {
+  height: 50%;
+  width: 300px;
+}
+.gd2 img {
+ height: 200px;
+ width:  300px;
+}
+.genre .gd3 {
+  height: 50%;
+  width: 300px;
+}
+.gd3 img {
+ height: 200px;
+ width:  300px;
+}
+.genre .gd4 {
+  height: 50%;
+  width: 300px;
+}
+.gd4 img {
+ height: 200px;
+ width:  300px;
+}
+.genre .gd5 {
+  height: 50%;
+  width: 300px;
+}
+.gd5 img {
+ height: 200px;
+ width:  300px;
+}
+.genre .gd6 {
+  height: 50%;
+  width: 300px;
+}
+.gd6 img {
+ height: 200px;
+ width:  300px;
+}
+.genre .gd7 {
+  height: 50%;
+  width: 300px;
+}
+.gd7 img {
+ height: 200px;
+ width:  300px;
+}
+.genre .gd8 {
+  height: 50%;
+  width: 300px;
+}
+.gd8 img {
+ height: 200px;
+ width:  300px;
+}
+.genre .gd9 {
+  height: 50%;
+  width: 300px;
+}
+.gd9 img {
+ height: 200px;
+ width:  300px;
+}
+.genre .gd10 {
+  height: 50%;
+  width: 300px;
+}
+.gd10 img {
+ height: 200px;
+ width:  300px;
+}
+.genre .gd11 {
+  height: 50%;
+  width: 300px;
+}
+.gd11 img {
+ height: 200px;
+ width:  300px;
 }
