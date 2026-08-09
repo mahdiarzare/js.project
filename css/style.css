@@ -197,3 +197,60 @@ section {
   left: 1290px;
   z-index: 1000;
 }
+.content {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+.content .ch1 {
+  position: absolute;
+  right: 30px;
+  top: 80px ;
+  color: rgb(216, 205, 205);
+  font-size: 28px;
+}
+.content .ch2 {
+  position: absolute;
+  top: 80px;
+  right: 500px;
+  border: 1px solid gray;
+  padding: 1%;
+  background-color: rgb(94, 90, 90);
+  color: white;
+  border-radius: 20px;
+  font-size: 28px;
+  transition: all 0.3s;
+}
+.content .ch3 {
+  position: absolute;
+  top: 80px;
+  right: 750px;
+  border: 1px solid gray;
+  padding: 1%;
+  background-color: rgb(94, 90, 90);
+  color: white;
+  border-radius: 20px;
+  font-size: 28px;
+  transition: all 0.3s;
+}
+.content .ch4 {
+  position: absolute;
+  top: 80px;
+  right: 1050px;
+  border: 1px solid gray;
+  padding: 1%;
+  background-color: rgb(94, 90, 90);
+  color: white;
+  border-radius: 20px;
+  font-size: 28px;
+  transition: all 0.3s;
+}
+.ch2:hover {
+  scale: 1.1;
+}
+.ch3:hover {
+  scale: 1.1;
+}
+.ch4:hover {
+  scale: 1.1;
+}
