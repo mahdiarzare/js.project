@@ -86,10 +86,12 @@ section {
   height: 500px;
   width: 800px;
   position: relative;
+  transition: all 0.5s;
 }
 .img-d {
   height: 100%;
   width: 100%;
+  transition: all 0.5s;
 }
 .img-d img {
   height: 90%;
@@ -97,6 +99,7 @@ section {
   position: absolute;
   left: 500px;
   bottom: 50px;
+  transition: all 0.5s;
 }
 .side-img {
   height: 300px;
@@ -106,35 +109,42 @@ section {
   position: absolute;
   bottom: 120px;
   left: 80px;
+  transition: all 0.5s;
 }
 .side-img img {
   height: 80%;
   width: 90%;
+  transition: all 0.5s;
 }
 .img-d .left {
    position: absolute;
    left: 500px;
    top: 200px;
+   transition: all 0.5s;
    z-index: 1000;
 }
 .img-d .right{
   position: absolute;
   top: 200px;
+  transition: all 0.5s;
   left: 1290px;
   z-index: 1000;
 }
 .img-d2 {
   height: 100%;
+  transition: all 0.5s;
   width: 100%;
 }
 .img-d2 img {
   height: 90%;
   width: 100%;
+  transition: all 0.5s;
   position: absolute;
   left: 500px;
   bottom: 50px;
 }
 .side-img2 {
+  transition: all 0.5s;
   height: 300px;
   width: 400px;
   display: grid;
@@ -146,12 +156,14 @@ section {
 .side-img2 img {
   height: 80%;
   width: 90%;
+  transition: all 0.5s;
 }
 .img-d2 .left {
   position: absolute;
   left: 500px;
   top: 200px;
   z-index: 1000;
+  transition: all 0.5s;
 }
 
 .img-d2 .right {
@@ -159,15 +171,18 @@ section {
   top: 200px;
   left: 1290px;
   z-index: 1000;
+  transition: all 0.5s;
 }
 .img-d3 {
   height: 100%;
   width: 100%;
+  transition: all 0.5s;
 }
 .img-d3 img {
   height: 90%;
   width: 100%;
   position: absolute;
+  transition: all 0.5s;
   left: 500px;
   bottom: 50px;
 }
@@ -179,16 +194,19 @@ section {
   position: absolute;
   bottom: 120px;
   left: 80px;
+  transition: all 0.5s;
 }
 .side-img3 img {
   height: 80%;
   width: 90%;
+  transition: all 0.5s;
 }
 .img-d3 .left {
   position: absolute;
   left: 500px;
   top: 200px;
   z-index: 1000;
+  transition: all 0.5s;
 }
 
 .img-d3 .right {
@@ -268,16 +286,17 @@ section {
   overflow: scroll;
   scrollbar-width: none;
   position: relative;
+  scroll-behavior: smooth;
 }
 .genre ::-webkit-scrollbar{
   display: none;
 }
 
-.genre .gd1 {
+.genre div .active {
   height: 50%;
   width: 300px;
 }
-.gd1 img {
+.genre div.active img {
  height: 200px;
  width:  300px;
 }
@@ -360,4 +379,24 @@ section {
 .gd11 img {
  height: 200px;
  width:  300px;
+}
+.genre .lb {
+  position: absolute;
+  right: 1500px;
+  top: 80px;
+  position: sticky;
+  background-color: gray;
+  z-index: 2;
+  height: 20px;
+
+}
+.genre .rb {
+  position: absolute;
+  right: 0px;
+  top: 80px;
+  position: sticky;
+  background-color: gray;
+  z-index: 2;
+  height: 20px;
+
 }

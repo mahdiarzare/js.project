@@ -35,3 +35,19 @@ banners.forEach((banner) => {
 });
 
 showSlide(current);
+
+
+const leftBn = document.querySelector(".lb");
+const rightBn = document.querySelector(".rb");
+const genreEl = document.querySelector(".genre");
+const items = genreEl.children;
+
+const itemWidth = items[0].offsetWidth; 
+
+rightBn.addEventListener("click", () => {
+  genreEl.scrollBy({ left: itemWidth, behavior: "smooth" });
+});
+
+leftBn.addEventListener("click", () => {
+  genreEl.scrollBy({ left: -itemWidth, behavior: "smooth" });
+});
