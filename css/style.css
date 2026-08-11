@@ -406,9 +406,27 @@ section {
   white-space: nowrap;
   overflow-x: scroll;
   gap: 15px;
+  position: relative;
 }
 .online-items::-webkit-scrollbar {
   display: none;
+}
+.online-items .left-btn{
+  position: sticky;
+  height: 20px;
+  background-color: gray;
+  right: 1500px;
+  top: 80px;
+  z-index: 4;
+}
+.online-items .right-btn{
+  position: absolute;
+  position: sticky;
+  height: 20px;
+  top: 80px;
+  right: 5px;
+  z-index: 4;
+  background-color: gray;
 }
 
 .online-items .new-d {

@@ -51,3 +51,17 @@ rightBn.addEventListener("click", () => {
 leftBn.addEventListener("click", () => {
   genreEl.scrollBy({ left: -itemWidth, behavior: "smooth" });
 });
+const leftBtn1 = document.querySelector(".left-btn");
+const rightBtn1 = document.querySelector(".right-btn");
+const newItems = document.querySelector(".online-items");
+const items1 = newItems.children;
+
+const itemlenght = items1[0].offsetWidth; 
+
+rightBtn1.addEventListener("click", () => {
+newItems.scrollBy({ left: itemlenght, behavior: "smooth" });
+});
+
+leftBtn1.addEventListener("click", () => {
+  newItems.scrollBy({ left: -itemlenght, behavior: "smooth" });
+});
