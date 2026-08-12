@@ -411,7 +411,7 @@ section {
 .online-items::-webkit-scrollbar {
   display: none;
 }
-.online-items .left-btn{
+.online-items .left-btn {
   position: sticky;
   height: 20px;
   background-color: gray;
@@ -419,7 +419,7 @@ section {
   top: 80px;
   z-index: 4;
 }
-.online-items .right-btn{
+.online-items .right-btn {
   position: absolute;
   position: sticky;
   height: 20px;
@@ -548,4 +548,156 @@ section {
 .new-d15 img {
   height: 200px;
   width: 250px;
+}
+
+.onitems {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  gap: 15px;
+  position: relative;
+}
+.onitems::-webkit-scrollbar {
+  display: none;
+}
+.onitems .n-div {
+  height: 250px;
+  width: 300px;
+}
+.n-div img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div2 {
+  height: 250px;
+  width: 300px;
+}
+.n-div2 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div3 {
+  height: 250px;
+  width: 300px;
+}
+.n-div3 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div4 {
+  height: 250px;
+  width: 300px;
+}
+.n-div4 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div5 {
+  height: 250px;
+  width: 300px;
+}
+.n-div5 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div6 {
+  height: 250px;
+  width: 300px;
+}
+.n-div6 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div7 {
+  height: 250px;
+  width: 300px;
+}
+.n-div7 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div8 {
+  height: 250px;
+  width: 300px;
+}
+.n-div8 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div0 {
+  height: 250px;
+  width: 300px;
+}
+.n-div9 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div10 {
+  height: 250px;
+  width: 300px;
+}
+.n-div10 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div11 {
+  height: 250px;
+  width: 300px;
+}
+.n-div11 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div12 {
+  height: 250px;
+  width: 300px;
+}
+.n-div12 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div13 {
+  height: 250px;
+  width: 300px;
+}
+.n-div13 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div14 {
+  height: 250px;
+  width: 300px;
+}
+.n-div14 img {
+  height: 200px;
+  width: 250px;
+}
+.onitems .n-div15 {
+  height: 250px;
+  width: 300px;
+}
+.n-div15 img {
+  height: 200px;
+  width: 250px;
+}
+.lft-btn {
+  position: absolute;
+  height: 20px;
+  right: 1400px;
+  top: 80px;
+  position: sticky;
+  z-index: 10;
+  background-color: gray;
+
+}
+.rigt-btn {
+  position: absolute;
+  height: 20px;
+  right: 0;
+  top: 80px;
+  position: sticky;
+  background-color: gray;
 }

@@ -36,13 +36,12 @@ banners.forEach((banner) => {
 
 showSlide(current);
 
-
 const leftBn = document.querySelector(".lb");
 const rightBn = document.querySelector(".rb");
 const genreEl = document.querySelector(".genre");
 const items = genreEl.children;
 
-const itemWidth = items[0].offsetWidth; 
+const itemWidth = items[0].offsetWidth;
 
 rightBn.addEventListener("click", () => {
   genreEl.scrollBy({ left: itemWidth, behavior: "smooth" });
@@ -56,12 +55,26 @@ const rightBtn1 = document.querySelector(".right-btn");
 const newItems = document.querySelector(".online-items");
 const items1 = newItems.children;
 
-const itemlenght = items1[0].offsetWidth; 
+const itemlenght = items1[0].offsetWidth;
 
 rightBtn1.addEventListener("click", () => {
-newItems.scrollBy({ left: itemlenght, behavior: "smooth" });
+  newItems.scrollBy({ left: itemlenght, behavior: "smooth" });
 });
 
 leftBtn1.addEventListener("click", () => {
   newItems.scrollBy({ left: -itemlenght, behavior: "smooth" });
+});
+const lftBtn = document.querySelector(".lft-btn");
+const rigtBtn = document.querySelector(".rigt-btn");
+const onItems = document.querySelector(".onitems");
+const banner = onItems.children;
+
+const itemWh = banner[0].offsetWidth;
+
+rigtBtn.addEventListener("click", () => {
+  onItems.scrollBy({ left: itemWh, behavior: "smooth" });
+});
+
+lftBtn.addEventListener("click", () => {
+  onItems.scrollBy({ left: -itemWh, behavior: "smooth" });
 });
