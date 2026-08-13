@@ -78,3 +78,17 @@ rigtBtn.addEventListener("click", () => {
 lftBtn.addEventListener("click", () => {
   onItems.scrollBy({ left: -itemWh, behavior: "smooth" });
 });
+const leftB = document.querySelector(".left-b");
+const rightB = document.querySelector(".right-b");
+const newSection = document.querySelector(".new-sec");
+const itemEl = newSection.children;
+
+const newItemEl = itemEl[0].offsetWidth;
+
+rightB.addEventListener("click", () => {
+  newSection.scrollBy({ left: newItemEl, behavior: "smooth" });
+});
+
+leftB.addEventListener("click", () => {
+  newSection.scrollBy({ left: -newItemEl, behavior: "smooth" });
+});

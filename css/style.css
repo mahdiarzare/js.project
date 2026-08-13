@@ -701,3 +701,143 @@ section {
   position: sticky;
   background-color: gray;
 }
+.new-sec {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  gap: 15px;
+}
+.new-sec .new-ds{
+  height: 300px;
+  width: 350px;
+}
+.new-ds img{
+  height: 250px;
+  width: 300px;
+  border-radius: 15px;
+}
+.new-sec .new-ds2{
+  height: 300px;
+  width: 350px;
+}
+.new-ds2 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds3{
+  height: 300px;
+  width: 350px;
+}
+.new-ds3 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds4{
+  height: 300px;
+  width: 350px;
+}
+.new-ds4 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds5{
+  height: 300px;
+  width: 350px;
+}
+.new-ds5 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds6{
+  height: 300px;
+  width: 350px;
+}
+.new-ds6 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds7{
+  height: 300px;
+  width: 350px;
+}
+.new-ds7 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds8{
+  height: 300px;
+  width: 350px;
+}
+.new-ds8 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds9{
+  height: 300px;
+  width: 350px;
+}
+.new-ds9 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-d10s{
+  height: 300px;
+  width: 350px;
+}
+.new-ds10 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds11{
+  height: 300px;
+  width: 350px;
+}
+.new-ds11 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds12{
+  height: 300px;
+  width: 350px;
+}
+.new-ds12 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds13{
+  height: 300px;
+  width: 350px;
+}
+.new-ds13 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}.new-sec .new-ds14{
+  height: 300px;
+  width: 350px;
+}
+.new-ds14 img{
+  height: 250px;
+  width: 300px;
+   border-radius: 15px;
+}
+.left-b {
+  position: absolute;
+  height: 20px;
+  right: 1400px;
+  top: 80px;
+  position: sticky;
+  z-index: 10;
+  background-color: gray;
+}
+.right-b {
+  position: absolute;
+  height: 20px;
+  right: 0;
+  top: 80px;
+  position: sticky;
+  background-color: gray;
+}
