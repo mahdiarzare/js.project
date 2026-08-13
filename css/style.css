@@ -299,6 +299,7 @@ section {
 .genre div.active img {
   height: 200px;
   width: 300px;
+  border-radius: 15px;
 }
 .genre .gd2 {
   height: 50%;
@@ -307,6 +308,7 @@ section {
 .gd2 img {
   height: 200px;
   width: 300px;
+    border-radius: 15px;
 }
 .genre .gd3 {
   height: 50%;
@@ -315,6 +317,7 @@ section {
 .gd3 img {
   height: 200px;
   width: 300px;
+    border-radius: 15px;
 }
 .genre .gd4 {
   height: 50%;
@@ -323,6 +326,7 @@ section {
 .gd4 img {
   height: 200px;
   width: 300px;
+    border-radius: 15px;
 }
 .genre .gd5 {
   height: 50%;
@@ -331,6 +335,7 @@ section {
 .gd5 img {
   height: 200px;
   width: 300px;
+    border-radius: 15px;
 }
 .genre .gd6 {
   height: 50%;
@@ -339,6 +344,7 @@ section {
 .gd6 img {
   height: 200px;
   width: 300px;
+    border-radius: 15px;
 }
 .genre .gd7 {
   height: 50%;
@@ -347,6 +353,7 @@ section {
 .gd7 img {
   height: 200px;
   width: 300px;
+    border-radius: 15px;
 }
 .genre .gd8 {
   height: 50%;
@@ -355,6 +362,7 @@ section {
 .gd8 img {
   height: 200px;
   width: 300px;
+    border-radius: 15px;
 }
 .genre .gd9 {
   height: 50%;
@@ -363,6 +371,7 @@ section {
 .gd9 img {
   height: 200px;
   width: 300px;
+    border-radius: 15px;
 }
 .genre .gd10 {
   height: 50%;
@@ -371,6 +380,7 @@ section {
 .gd10 img {
   height: 200px;
   width: 300px;
+    border-radius: 15px;
 }
 .genre .gd11 {
   height: 50%;
@@ -379,6 +389,7 @@ section {
 .gd11 img {
   height: 200px;
   width: 300px;
+    border-radius: 15px;
 }
 .genre .lb {
   position: absolute;
@@ -436,6 +447,7 @@ section {
 .new-d img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d2 {
   height: 200px;
@@ -444,6 +456,7 @@ section {
 .new-d2 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d3 {
   height: 200px;
@@ -452,6 +465,7 @@ section {
 .new-d3 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d4 {
   height: 200px;
@@ -460,6 +474,7 @@ section {
 .new-d4 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d4 {
   height: 200px;
@@ -468,6 +483,7 @@ section {
 .new-d5 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d6 {
   height: 200px;
@@ -476,6 +492,7 @@ section {
 .new-d6 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d7 {
   height: 200px;
@@ -484,6 +501,7 @@ section {
 .new-d7 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d8 {
   height: 200px;
@@ -492,6 +510,7 @@ section {
 .new-d8 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d9 {
   height: 200px;
@@ -500,6 +519,7 @@ section {
 .new-d9 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d10 {
   height: 200px;
@@ -508,6 +528,7 @@ section {
 .new-d10 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d11 {
   height: 200px;
@@ -516,6 +537,7 @@ section {
 .new-d11 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d12 {
   height: 200px;
@@ -524,6 +546,7 @@ section {
 .new-d12 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d13 {
   height: 200px;
@@ -532,6 +555,7 @@ section {
 .new-d13 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d14 {
   height: 200px;
@@ -540,6 +564,7 @@ section {
 .new-d14 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .online-items .new-d15 {
   height: 200px;
@@ -548,6 +573,7 @@ section {
 .new-d15 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 
 .onitems {
@@ -570,6 +596,7 @@ section {
 .n-div img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div2 {
   height: 250px;
@@ -578,6 +605,7 @@ section {
 .n-div2 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div3 {
   height: 250px;
@@ -586,6 +614,7 @@ section {
 .n-div3 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div4 {
   height: 250px;
@@ -594,6 +623,7 @@ section {
 .n-div4 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div5 {
   height: 250px;
@@ -602,6 +632,7 @@ section {
 .n-div5 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div6 {
   height: 250px;
@@ -610,6 +641,7 @@ section {
 .n-div6 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div7 {
   height: 250px;
@@ -618,6 +650,7 @@ section {
 .n-div7 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div8 {
   height: 250px;
@@ -626,6 +659,7 @@ section {
 .n-div8 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div0 {
   height: 250px;
@@ -634,6 +668,7 @@ section {
 .n-div9 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div10 {
   height: 250px;
@@ -642,6 +677,7 @@ section {
 .n-div10 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div11 {
   height: 250px;
@@ -650,6 +686,7 @@ section {
 .n-div11 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div12 {
   height: 250px;
@@ -658,6 +695,7 @@ section {
 .n-div12 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div13 {
   height: 250px;
@@ -666,6 +704,7 @@ section {
 .n-div13 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div14 {
   height: 250px;
@@ -674,6 +713,7 @@ section {
 .n-div14 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .onitems .n-div15 {
   height: 250px;
@@ -682,6 +722,7 @@ section {
 .n-div15 img {
   height: 200px;
   width: 250px;
+    border-radius: 15px;
 }
 .lft-btn {
   position: absolute;
@@ -710,6 +751,9 @@ section {
   white-space: nowrap;
   gap: 15px;
 }
+.new-sec::-webkit-scrollbar{
+  display: none;
+}
 .new-sec .new-ds{
   height: 300px;
   width: 350px;
@@ -734,6 +778,7 @@ section {
 .new-ds3 img{
   height: 250px;
   width: 300px;
+    border-radius: 15px;
    border-radius: 15px;
 }.new-sec .new-ds4{
   height: 300px;
@@ -840,4 +885,30 @@ section {
   top: 80px;
   position: sticky;
   background-color: gray;
+}
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    background-color: rgb(227, 11, 108);
+}
+.modal p {
+    text-align: justify;
+}
+.active {
+    opacity: 1 !important;
+    visibility: visible !important;
 }

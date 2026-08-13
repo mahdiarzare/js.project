@@ -92,3 +92,17 @@ rightB.addEventListener("click", () => {
 leftB.addEventListener("click", () => {
   newSection.scrollBy({ left: -newItemEl, behavior: "smooth" });
 });
+const modalEls = document.querySelector(".modal");
+
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    modalEls.classList.add("active");
+  }, 5000);
+});
+
+window.addEventListener("click", (e) => {
+  if (!e.target.closest(".modal")) {
+    modalEls.classList.remove("active");
+  }
+});
+
