@@ -105,4 +105,17 @@ window.addEventListener("click", (e) => {
     modalEls.classList.remove("active");
   }
 });
+const buttonL = document.querySelector(".button-left");
+const buttonR = document.querySelector(".button-right");
+const typeSec = document.querySelector(".type-sec");
+const divTypes = typeSec.children;
 
+const secWidth= divTypes[0].offsetWidth;
+
+buttonR.addEventListener("click", () => {
+  typeSec.scrollBy({ left: secWidth, behavior: "smooth" });
+});
+
+buttonL.addEventListener("click", () => {
+  typeSec.scrollBy({ left: -secWidth, behavior: "smooth" });
+});
