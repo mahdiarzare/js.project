@@ -1328,12 +1328,143 @@ body {
 
 .h-c2{
    position: absolute;
-  left: 40px;
-  top: 150px;
-  font-size: 1.7em;
+  left: 850px;
+  top: 210px;
+  font-size: 1.5em;
   background-color: rgb(194, 19, 48);
   border: 1px solid gray;
   border-radius: 15px;
   padding: 5px;
   color: rgb(6, 0, 1);
+}
+.ser-sec {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  /* overflow-x: scroll; */
+  white-space: nowrap;
+  gap: 15px;
+  position: absolute;
+  top: 3600px;
+  top: 4500px;
+  left: 0px;
+  justify-content: center;
+}
+.ser-sec:-webkit-scrollbar {
+  display: none;
+}
+.ser-sec .ser-d {
+  height: 300px;
+  width: 350px;
+}
+.ser-d img {
+  height: 250px;
+  width: 300px;
+  border-radius: 15px;
+}
+.ser-sec .ser-d2 {
+  height: 300px;
+  width: 350px;
+}
+.ser-d2 img {
+  height: 250px;
+  width: 300px;
+  border-radius: 15px;
+}
+.ser-sec .ser-d3 {
+  height: 300px;
+  width: 350px;
+}
+.ser-d3 img {
+  height: 250px;
+  width: 300px;
+  border-radius: 15px;
+  border-radius: 15px;
+}
+.ser-sec .ser-d4 {
+  height: 300px;
+  width: 350px;
+}
+.ser-d4 img {
+  height: 250px;
+  width: 300px;
+  border-radius: 15px;
+}
+.foot-sec{
+  position: absolute;
+  top: 4900px;
+  height: 400px;
+  width: 900px;
+  left: 300px;
+  justify-content: center;
+  opacity: 0.5;
+}
+.foot-d{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url(../assets/download.jpg);
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  animation: scroll-bg 18s linear infinite;
+}
+@keyframes scroll-bg {
+  from {background-position: 0 0;}
+  to   {background-position: -1000px 0;}
+}
+.f-h{
+  color: rgb(194, 19, 48);
+  border: 1px solid rgb(146, 19, 48);
+  background-color: black;
+  border-radius: 15px;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  font-size: 1.6em;
+}
+.f-p{
+  position: absolute;
+  right: 10px;
+  top: 150px;
+  font-size: 1.6em;
+  color: rgb(146, 19, 48);
+  background-color: black;
+  border-radius: 15px;
+  padding: 5px;
+}
+.f-h2{
+  position: absolute;
+  right: 10px;
+  top: 250px;
+  color: rgb(146, 19, 48);
+  background-color: black;
+  border-radius: 15px;
+  padding: 10px;
+}
+.footer-s{
+  height: 200px;
+  width: 100%;
+  background-color: rgb(38, 37, 41);
+  position: absolute;
+  top: 5500px;
+}
+.footer-s::before{
+  content: "";
+  width: 100%;
+  background: white;
+  display: block;
+  height: 1px;
+}
+.f-ul{
+  display: flex;
+  direction: rtl;
+  position: absolute;
+  left: 900px;
+}
+.footp{
+  position: absolute;
+  right: 50px;
+  top: 80px;
+  color: gainsboro;
 }
