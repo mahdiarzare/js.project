@@ -119,3 +119,17 @@ buttonR.addEventListener("click", () => {
 buttonL.addEventListener("click", () => {
   typeSec.scrollBy({ left: -secWidth, behavior: "smooth" });
 });
+const buttonL2 = document.querySelector(".button-left2");
+const buttonR2 = document.querySelector(".button-right2");
+const newSec2 = document.querySelector(".new-sec2");
+const divTypes2 = newSec2.children;
+
+const sWidth= divTypes2[0].offsetWidth;
+
+buttonR2.addEventListener("click", () => {
+  newSec2.scrollBy({ left: sWidth, behavior: "smooth" });
+});
+
+buttonL2.addEventListener("click", () => {
+  newSec2.scrollBy({ left: -sWidth, behavior: "smooth" });
+});
